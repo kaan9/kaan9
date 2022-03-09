@@ -43,7 +43,7 @@ Here are some ideas to get you started:
 `C++` `CUDA` `cuDNN` `Python` `PyTorch` <br /> <br />
 An implementation of the neural-network flow-agnostic frame-interpolation architecture [FLAVR](https://tarun005.github.io/FLAVR/) using CUDA and cuDNN.
 This project implements the decoder stage of the architecture using cuDNN and combines it with an encoder
-adapted from the reference FLAVR implementation in Python and PyTorch. <br />
+adapted from the reference FLAVR implementation in Python and PyTorch. This is a 3-person team project. <br />
 
 **Original (30 FPS)**<br />
 ![](https://github.com/adityahota/CIS565-Final-Project-SlowMo/raw/master/visuals/squirrel.gif) <br />
@@ -59,7 +59,7 @@ Features include BSDF diffuse, specular, and refractive surfaces; Fresnel effect
 loading; stream compaction on terminated rays; caching first bounces; and stochastic-sampled antialiasing.
 Conversion from OpenGL to Vulkan is a work-in-progress. This is a [CIS 565](https://cis565-fall-2021.github.io/) project. <br />
 
-**Interpolated with 5000 iterations:** <br />
+**Simulated with 5000 iterations:** <br />
 ![dragon](https://github.com/kaan9/Project3-CUDA-Path-Tracer/raw/main/visuals/cover_dragon.png) <br />
 
 
@@ -67,7 +67,7 @@ Conversion from OpenGL to Vulkan is a work-in-progress. This is a [CIS 565](http
 ## [WebGL Forward+ and Clustered Deferred Shading](https://github.com/kaan9/Project5-WebGL-Forward-Plus-and-Clustered-Deferred)
 `JavaScript` `WebGL` <br /> <br />
 Simulation of a scene with a large number of light sources using different methods of rendering light:
-Forward Rendering, Forward+ Rendering, and Clustered Deferred Rendering. This is a [CIS 565](https://cis565-fall-2021.github.io/) project.<br />
+Forward Rendering, Forward+ Rendering, and Clustered Deferred Rendering. Also features Blinn-Phong shading. This is a [CIS 565](https://cis565-fall-2021.github.io/) project.<br />
 [**Try the Live Demo**](https://www.kaan9.com/Project5-WebGL-Forward-Plus-and-Clustered-Deferred/).
 Tested on Google Chrome, requires WebGL extensions enabled by default on Chrome. <br />
 
@@ -91,7 +91,7 @@ Parallel scan and stream compaction implemented with CUDA. Also includes a radix
 
 ## Mini-Minecraft
 `C++` `OpenGL` `Qt` <br /> <br />
-A Minecraft-like game. This is a 3-person team project for [CIS 460](https://www.cis.upenn.edu/~cis460/current/). I implemented efficient multithreaded terrain generation using pthreads, chunk rendering, swimming, and biomes. <br />
+A Minecraft-like game. This is a 3-person team final project for [CIS 460](https://www.cis.upenn.edu/~cis460/current/). I implemented efficient multithreaded terrain generation using pthreads, chunk rendering, swimming, and biomes. <br />
 
 **Demo Video**
 ![TODO: turn demo to gif or add screenshot]()
@@ -124,7 +124,7 @@ TODO
 
 ## [Shell](https://github.com/kaan9/sh)
 `C` <br /> <br />
-TODO CIS380 project
+Implementation of a subset of the Unix Shell with support for job control. Supports redirection, pipes, background processes, job control with the commands `jobs`, `fg`, `bg`; and relays signals to the child processes.
 
 ## [J Compiler](TODO)
 `C` <br /> <br />
@@ -142,7 +142,7 @@ GUI implementation of the Go board game in Java using Swing. <br />
 ## [CdSS](https://github.com/UYasher/CdSS)
 `Python` `CSS` `OR-Tools` <br /> <br />
 CSS with optional variable constraints. This project implements a transpiler from a superset of CSS that includes variables
-and constraint programming to plain CSS using Google's OR-Tools and Lark. Final project for [CIS 189](https://www.cis.upenn.edu/~cis189/). <br />
+and constraint programming to plain CSS using Google's OR-Tools and Lark. This is a 2-person team final project for [CIS 189](https://www.cis.upenn.edu/~cis189/). <br />
 
 
 ## [Malbolge VM](https://github.com/kaan9/malbolge-vm)
