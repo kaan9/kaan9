@@ -83,6 +83,37 @@ CUDA. This is a [CIS 565](https://cis565-fall-2021.github.io/) project. <br />
 ![coherent grid](https://github.com/kaan9/Project1-CUDA-Flocking/raw/master/visuals/coherent_overview.gif) <br />
 
 
+## [CUDA Scan, Stream Compaction, Radix Sort](https://github.com/kaan9/Project2-Stream-Compaction)
+`C++` `CUDA` <br /> <br />
+Implementation of the parallel scan, stream compaction, and radix sort algorithms on the GPU using CUDA. Also
+includes a novel work-in-progress parallel UTF-8 decoder/encoder in CUDA. <br />
+
+
+
+## Mini-Minecraft
+`C++` `OpenGL` `Qt` <br /> <br />
+A Minecraft-like game. This is a 3-person team project for [CIS 460](https://www.cis.upenn.edu/~cis460/current/). I implemented efficient multithreaded terrain generation using pthreads, chunk rendering, swimming, and biomes. <br />
+
+**Demo Video**
+![TODO: turn demo to gif or add screenshot]()
+
+
+
+## x86lite Assembler and Interpreter
+`OCaml` `x86_64`  <br /> <br />
+Interpreter for a subset of x86. Assembles a subset of x86_64 as specified in 
+[x86lite spec](https://www.cis.upenn.edu/~cis341/current/hw2/doc/x86lite.html) to a pseudo-binary representation 
+and interprets it. The included sample x86lite program is an implementation of left-reduce in assembly.
+This is a project for [CIS 341](https://www.cis.upenn.edu/~cis341/current/).  <br />
+
+## LLVMlite Compiler
+`OCaml` `LLVM IR` `x86_64`<br /> <br />
+Compiiler from a subset of LLVM (as specified in [LLVMlite spec](https://www.cis.upenn.edu/~cis341/current/hw3/llvmlite.html)) to a subset of x86_64 (as specified in
+[x86lite spec](https://www.cis.upenn.edu/~cis341/current/hw2/doc/x86lite.html)). This is a project for [CIS 341](https://www.cis.upenn.edu/~cis341/current/).
+
+
+**Demo Video**
+![TODO: turn demo to gif or add screenshot]()
 
 
 ## Superscalar Pipelined RISC CPU
