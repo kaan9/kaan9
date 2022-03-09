@@ -85,9 +85,8 @@ CUDA. This is a [CIS 565](https://cis565-fall-2021.github.io/) project. <br />
 
 ## [CUDA Scan, Stream Compaction, Radix Sort](https://github.com/kaan9/Project2-Stream-Compaction)
 `C++` `CUDA` <br /> <br />
-Implementation of the parallel scan, stream compaction, and radix sort algorithms on the GPU using CUDA. Also
-includes a novel work-in-progress parallel UTF-8 decoder/encoder in CUDA. <br />
-
+Parallel scan and stream compaction implemented with CUDA. Also includes a radix sort implementation that can outperform std::sort for large array sizes and a novel work-in-progress parallel UTF-8 decoder/encoder in CUDA. This is a [CIS 565](https://cis565-fall-2021.github.io/) project. <br />
+![radix performance](https://github.com/kaan9/Project2-Stream-Compaction/raw/main/visuals/radix.png)
 
 
 ## Mini-Minecraft
@@ -135,10 +134,16 @@ TODO: Compiler from a Forth-like language to RISC assembly. CIS240 project
 `C` <br /> <br />
 TODO: Interpreter for a 16-bit [RISC architecture](https://www.cis.upenn.edu/~cis571/current/lc4_isa_sheet.pdf). CIS 240 Project
 
-## [Go](TODO)
+## [Go](https://github.com/kaan9/Go)
 `Java` <br /> <br />
-GUI implementation of the Go board game in Java using Swing. CIS120 Final Project.
-(TODO: Put an image here)
+GUI implementation of the Go board game in Java using Swing. <br />
+![go screenshot](https://github.com/kaan9/Go/raw/master/screenshot.png)
+
+## [CdSS](https://github.com/UYasher/CdSS)
+`Python` `CSS` `OR-Tools` <br /> <br />
+CSS with optional variable constraints. This project implements a transpiler from a superset of CSS that includes variables
+and constraint programming to plain CSS using Google's OR-Tools and Lark. Final project for [CIS 189](https://www.cis.upenn.edu/~cis189/). <br />
+
 
 ## [Malbolge VM](https://github.com/kaan9/malbolge-vm)
 `C` <br /> <br />
