@@ -112,19 +112,37 @@ Compiiler from a subset of LLVM (as specified in [LLVMlite spec](https://www.cis
 [x86lite spec](https://www.cis.upenn.edu/~cis341/current/hw2/doc/x86lite.html)). This is a project for [CIS 341](https://www.cis.upenn.edu/~cis341/current/).
 
 
-**Demo Video**
-![TODO: turn demo to gif or add screenshot]()
-
-
 ## Superscalar Pipelined RISC CPU
 `Verilog` <br /> <br />
 5-stage pipelined dual-channel CPU for [a RISC architecture](https://www.cis.upenn.edu/~cis571/current/lc4_isa_sheet.pdf).
 This is a 2-person team project for [CIS571](https://www.cis.upenn.edu/~cis571/current/).
 <br />
 
+
+## [Turkish Morphology](https://github.com/kaan9/turkish-morphology)
+`Go` <br /> <br />
+TODO
+
+## [Shell](https://github.com/kaan9/sh)
+`C` <br /> <br />
+TODO CIS380 project
+
+## [J Compiler](TODO)
+`C` <br /> <br />
+TODO: Compiler from a Forth-like language to RISC assembly. CIS240 project
+
+## [LC4 Interpreter](TODO)
+`C` <br /> <br />
+TODO: Interpreter for a 16-bit [RISC architecture](https://www.cis.upenn.edu/~cis571/current/lc4_isa_sheet.pdf). CIS 240 Project
+
+## [Go](TODO)
+`Java` <br /> <br />
+GUI implementation of the Go board game in Java using Swing. CIS120 Final Project.
+(TODO: Put an image here)
+
 ## [Malbolge VM](https://github.com/kaan9/malbolge-vm)
 `C` <br /> <br />
 An interpreter for the Malbolge esoteric programming language written in ANSI C.
-Malbolge is a language specifically designed to be extremely difficult to program in.
+Malbolge is a language designed to be extremely difficult to program in.
 <br />
 
