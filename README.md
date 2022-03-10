@@ -159,7 +159,7 @@ GUI implementation of the Go board game in Java using Swing. <br />
 
 ![go screenshot](https://github.com/kaan9/Go/raw/master/screenshot.png)
 
-## [CdSS](https://github.com/UYasher/CdSS)
+## [CdSS: Constrained Style Sheets](https://github.com/UYasher/CdSS)
 `Python` `CSS` `OR-Tools` <br /> <br />
 CSS with optional variable constraints. This project implements a transpiler from a superset of CSS that includes variables
 and constraint programming to plain CSS using Google's OR-Tools. This is a 2-person team final project for [CIS 189](https://www.cis.upenn.edu/~cis189/). <br />
