@@ -1,11 +1,7 @@
 <!--
 ### Hi there 👋
 
-<div id="header" align="center">
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
-</div>
 
-**TODO: copy images to this repo**
 
 **kaan9/kaan9** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -38,6 +34,24 @@ Here are some ideas to get you started:
 
 
 ## Projects
+
+* [cuFLAVR - Neural Network Frame Interpolation on the GPU](https://github.com/adityahota/CIS565-Final-Project-SlowMo)
+* [CUDA Path Tracer](https://github.com/kaan9/Project3-CUDA-Path-Tracer)
+* [WebGL Forward+ and Clustered Deferred Shading](https://github.com/kaan9/Project5-WebGL-Forward-Plus-and-Clustered-Deferred)
+* [CUDA Boid Flocking Simulator](https://github.com/kaan9/Project1-CUDA-Flocking)
+* [CUDA Scan, Stream Compaction, Radix Sort](https://github.com/kaan9/Project2-Stream-Compaction)
+* Mini-Minecraft
+* [x86lite Assembler and Interpreter](https://github.com/kaan9/x86lite-simulator)
+* Superscalar Pipelined RISC CPU
+* [Turkish Morphology](https://github.com/kaan9/turkish-morphology)
+* [Shell](https://github.com/kaan9/sh)
+* [J Compiler](https://github.com/kaan9/j-compiler)
+* [Go](https://github.com/kaan9/Go)
+* [CdSS: Constrained Style Sheets](https://github.com/UYasher/CdSS)
+* [Malbolge VM](https://github.com/kaan9/malbolge-vm)
+
+
+
 
 ## [cuFLAVR - Neural Network Frame Interpolation on the GPU](https://github.com/adityahota/CIS565-Final-Project-SlowMo)
 `C++` `CUDA` `cuDNN` `Python` `PyTorch` <br /> <br />
@@ -121,7 +135,7 @@ This is a 2-person team project for [CIS571](https://www.cis.upenn.edu/~cis571/c
 `Go` <br /> <br />
 Algorithms implementing features of Turkish Morphology. Currently consists of a package inflection that performs agglutination on a root followed by a series of suffixes, respecting Turkish phonotactical rules. E.g.<br /> 
 
-`avrupa lI lAş DIr AmA DIK lAr (I)mIz DAn (y)mIş sInIz` $\rightarrow$ `avrupalılaştıramadıklarımızdanmışsınız`
+`avrupa lI lAş DIr AmA DIK lAr (I)mIz DAn (y)mIş sInIz -> avrupalılaştıramadıklarımızdanmışsınız`
 
 
 ## [Shell](https://github.com/kaan9/sh)
@@ -130,7 +144,7 @@ Implementation of a subset of the Unix Shell with support for job control. Suppo
 
 ## [J Compiler](https://github.com/kaan9/j-compiler)
 `C` <br /> <br />
-Compiler for J, a Forth-like language, targeting a 16-bit [RISC architecture assembly](https://www.cis.upenn.edu/~cis571/current/lc4_isa_sheet.pdf).
+Compiler for J, a Forth-like language, targeting a 16-bit [RISC architecture assembly](https://www.cis.upenn.edu/~cis571/current/lc4_isa_sheet.pdf). This is a project for CIS240.
 
 <!--
 ## [LC4 Interpreter](TODO)
