@@ -156,6 +156,7 @@ TODO: Interpreter for a 16-bit [RISC architecture](https://www.cis.upenn.edu/~ci
 ## [Go](https://github.com/kaan9/Go)
 `Java` <br /> <br />
 GUI implementation of the Go board game in Java using Swing. <br />
+
 ![go screenshot](https://github.com/kaan9/Go/raw/master/screenshot.png)
 
 ## [CdSS](https://github.com/UYasher/CdSS)
