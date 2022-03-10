@@ -85,7 +85,7 @@ CUDA. This is a [CIS 565](https://cis565-fall-2021.github.io/) project. <br />
 
 ## [CUDA Scan, Stream Compaction, Radix Sort](https://github.com/kaan9/Project2-Stream-Compaction)
 `C++` `CUDA` <br /> <br />
-Parallel scan and stream compaction implemented with CUDA. Also includes a radix sort implementation that can outperform std::sort for large array sizes and a novel work-in-progress parallel UTF-8 decoder/encoder in CUDA. This is a [CIS 565](https://cis565-fall-2021.github.io/) project. <br />
+Parallel scan and stream compaction implemented with CUDA. Also includes a radix sort implementation that can outperform std::sort for large arrays and a novel work-in-progress parallel UTF-8 decoder/encoder in CUDA. This is a [CIS 565](https://cis565-fall-2021.github.io/) project. <br />
 ![radix performance](https://github.com/kaan9/Project2-Stream-Compaction/raw/main/visuals/radix.png)
 
 
@@ -93,23 +93,22 @@ Parallel scan and stream compaction implemented with CUDA. Also includes a radix
 `C++` `OpenGL` `Qt` <br /> <br />
 A Minecraft-like game. This is a 3-person team final project for [CIS 460](https://www.cis.upenn.edu/~cis460/current/). I implemented efficient multithreaded terrain generation using pthreads, chunk rendering, swimming, and biomes. <br />
 
-**Demo Video**
-![TODO: turn demo to gif or add screenshot]()
+![miniminecraft](img/miniminecraft.png)
 
 
 
-## x86lite Assembler and Interpreter
+## [x86lite Assembler and Interpreter](https://github.com/kaan9/x86lite-simulator)
 `OCaml` `x86_64`  <br /> <br />
-Interpreter for a subset of x86. Assembles a subset of x86_64 as specified in 
-[x86lite spec](https://www.cis.upenn.edu/~cis341/current/hw2/doc/x86lite.html) to a pseudo-binary representation 
+Interpreter for a subset of x86. Assembles [a subset of x86_64](https://www.cis.upenn.edu/~cis341/current/hw2/doc/x86lite.html) to a pseudo-binary representation 
 and interprets it. The included sample x86lite program is an implementation of left-reduce in assembly.
 This is a project for [CIS 341](https://www.cis.upenn.edu/~cis341/current/).  <br />
 
+<!--
 ## LLVMlite Compiler
 `OCaml` `LLVM IR` `x86_64`<br /> <br />
 Compiiler from a subset of LLVM (as specified in [LLVMlite spec](https://www.cis.upenn.edu/~cis341/current/hw3/llvmlite.html)) to a subset of x86_64 (as specified in
 [x86lite spec](https://www.cis.upenn.edu/~cis341/current/hw2/doc/x86lite.html)). This is a project for [CIS 341](https://www.cis.upenn.edu/~cis341/current/).
-
+-->
 
 ## Superscalar Pipelined RISC CPU
 `Verilog` <br /> <br />
@@ -120,19 +119,25 @@ This is a 2-person team project for [CIS571](https://www.cis.upenn.edu/~cis571/c
 
 ## [Turkish Morphology](https://github.com/kaan9/turkish-morphology)
 `Go` <br /> <br />
-TODO
+Algorithms implementing features of Turkish Morphology. Currently consists of a package inflection that performs agglutination on a root followed by a series of suffixes, respecting Turkish phonotactical rules. E.g.<br /> 
+
+`avrupa lI lAş DIr AmA DIK lAr (I)mIz DAn (y)mIş sInIz` $\rightarrow$ `avrupalılaştıramadıklarımızdanmışsınız`
+
 
 ## [Shell](https://github.com/kaan9/sh)
 `C` <br /> <br />
-Implementation of a subset of the Unix Shell with support for job control. Supports redirection, pipes, background processes, job control with the commands `jobs`, `fg`, `bg`; and relays signals to the child processes.
+Implementation of a subset of the Unix Shell with support for job control. Supports redirection, pipes, background processes, job control with the commands `jobs`, `fg`, `bg`; and relays signals to child processes.
 
-## [J Compiler](TODO)
+## [J Compiler](https://github.com/kaan9/j-compiler)
 `C` <br /> <br />
-TODO: Compiler from a Forth-like language to RISC assembly. CIS240 project
+Compiler for J, a Forth-like language, targeting a 16-bit [RISC architecture assembly](https://www.cis.upenn.edu/~cis571/current/lc4_isa_sheet.pdf).
 
+<!--
 ## [LC4 Interpreter](TODO)
 `C` <br /> <br />
 TODO: Interpreter for a 16-bit [RISC architecture](https://www.cis.upenn.edu/~cis571/current/lc4_isa_sheet.pdf). CIS 240 Project
+-->
+
 
 ## [Go](https://github.com/kaan9/Go)
 `Java` <br /> <br />
@@ -142,7 +147,7 @@ GUI implementation of the Go board game in Java using Swing. <br />
 ## [CdSS](https://github.com/UYasher/CdSS)
 `Python` `CSS` `OR-Tools` <br /> <br />
 CSS with optional variable constraints. This project implements a transpiler from a superset of CSS that includes variables
-and constraint programming to plain CSS using Google's OR-Tools and Lark. This is a 2-person team final project for [CIS 189](https://www.cis.upenn.edu/~cis189/). <br />
+and constraint programming to plain CSS using Google's OR-Tools. This is a 2-person team final project for [CIS 189](https://www.cis.upenn.edu/~cis189/). <br />
 
 
 ## [Malbolge VM](https://github.com/kaan9/malbolge-vm)
