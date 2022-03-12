@@ -73,7 +73,7 @@ Features include BSDF diffuse, specular, and refractive surfaces; Fresnel effect
 loading; stream compaction on terminated rays; caching first bounces; and stochastic-sampled antialiasing.
 Conversion from OpenGL to Vulkan is a work-in-progress. This is a [CIS 565](https://cis565-fall-2021.github.io/) project. <br />
 
-**Simulated with 5000 iterations:** <br />
+**Rendered with 5000 iterations:** <br />
 ![dragon](https://github.com/kaan9/Project3-CUDA-Path-Tracer/raw/main/visuals/cover_dragon.png) <br />
 
 
